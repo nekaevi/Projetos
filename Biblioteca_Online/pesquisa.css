@@ -1,0 +1,153 @@
+body{
+    font-family:Rajdhani;
+}
+.div2::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.img, .conteudo {
+    float: none;
+    width: auto;
+}
+.div2 {
+    display: flex;
+}
+
+.img {
+    flex: 0 0 auto; /* Não crescerá, não encolherá, tamanho automático */
+    margin-right: 10px; /* Ajuste a margem conforme necessário */
+}
+
+.conteudo h2 {
+    white-space: nowrap; /* Impede a quebra de linha no título */
+    text-overflow: ellipsis; /* Adiciona reticências (...) para indicar que o texto foi truncado */
+}
+.conteudo p {
+    white-space: normal; 
+    min-width: 500px; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+}
+.conteudo {
+    float: right;
+    margin-right: 70%; 
+    width:50%;
+    flex: 1;
+}
+
+.button {
+    float: left;
+    margin-top: 40px;
+    margin-left: 60px;
+    width: 100px;
+    height:30px;
+    border-radius: 5px;
+    border: none;
+    background-color:#d8a2f6;
+    color:#ffffff;
+    cursor: pointer;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight:500;
+}
+.button:hover {
+    background-color:#ecd1fb;
+}
+body.dark .button {
+    color: #000; 
+  }
+
+.text {
+    border: none;
+    background-color:#f5e8fd;
+    width: 150px;
+    height:30px;
+    border-radius: 0px;
+    text-align:center;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight:500;
+    color: #000 !important;
+    float: right;
+    margin-top: 40px;
+    margin-right:0px;
+}
+.text:active {
+  color: black;
+}
+.text:focus{
+    outline: none;
+    color: black;
+}
+.enviar {
+    width: 100px;
+    height:30px;
+    border-radius: 5px;
+    border: none;
+    background-color:#d8a2f6;
+    color:#ffffff;
+    cursor: pointer;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight:500;
+    float: right;
+    margin-top: 40px;
+    margin-right:75px;
+    margin-left:5px;
+}
+
+.enviar:hover {
+    background-color:#ecd1fb;
+}
+
+.div2{
+    width:80%;
+    height:40vh;
+    border: 1px solid #d8a2f6;
+    margin-left:4%;
+    margin-top:10%;
+    display: flex;
+    align-items: top;
+    line-height: 1.5;
+    cursor:pointer;
+}
+
+.div2:hover{
+    opacity: 0.4;
+}
+
+
+
+h2{
+    color: black;
+ }
+ body.dark h2 {
+    color: white; 
+}
+
+ p{
+     color: black;
+     word-wrap: break-word;
+     font-weight: 300;
+ }
+.img{
+    width:15%;
+    height:100%;
+}
+.conteudo {
+    flex: 1;
+    padding: 20px; 
+    width:10%;
+    
+}
+
+.categorias {
+    font-weight: 300;
+    line-height: 2;
+}
+.texto{
+    padding-top: 20px; 
+}
+
+.autor{
+    font-weight: 500;
+}

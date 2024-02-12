@@ -1,0 +1,162 @@
+body{
+    background-color: #f5e8fd59;
+    font-family: 'Rajdhani', sans-serif;
+    
+}
+button{
+  background-color: var(--purple1);
+  padding: .4rem;
+  border: none;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: var(--purple2);
+  transition: .8s;
+}
+
+svg{
+  color: var(--white);
+  width: 24px;
+  height: 24px;
+}
+.text {
+    border: none;
+    background-color:#f5e8fd;
+    width: 150px;
+    height:30px;
+    border-radius: 0px;
+    text-align:center;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight:500;
+    color: #000 !important;
+    float: right;
+    margin-top: 40px;
+    margin-right:0px;
+}
+.text:active {
+  color: black;
+}
+.text:focus{
+    outline: none;
+    color: black;
+}
+
+
+.enviar {
+    width: 100px;
+    height:30px;
+    border-radius: 5px;
+    border: none;
+    background-color:#d8a2f6;
+    color:#ffffff;
+    cursor: pointer;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight:500;
+    float: right;
+    margin-top: 40px;
+    margin-right:75px;
+    margin-left:5px;
+}
+
+.enviar:hover {
+    background-color:#ecd1fb;
+}
+
+p{
+    margin-top: 80px;
+    margin-left: 60px;  
+    margin-bottom:0;
+    font-size:25px;
+    color:black;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+
+.div2 {
+    border: solid 2px #d8a2f6;
+    background-color: transparent;
+    height:280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 90%;
+    margin: 0 0 50px 60px;
+    overflow: hidden;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.imagens {
+  display: flex;
+  overflow: hidden;
+}
+
+
+.imagens img {
+  width: 300px;
+  height: auto;
+  margin: 0 10px;
+  transition: transform 0.3s;
+}
+
+.img1,
+.imagens img {
+  max-width: 110px; /* Redimensiona todas as imagens para caber na largura da div */
+  height: auto;
+  margin: 0 20px;
+}
+
+/* Estilos específicos para a primeira imagem */
+.img1 {
+  max-width: 50%; /* Define o tamanho desejado para a primeira imagem */
+  /* Adicione estilos adicionais, se necessário */
+}
+.seta-custom {
+  background-color: transparent;
+  font-size: 24px; /* Tamanho da seta */
+  cursor: pointer;
+  border:#d8a2f6;
+  color:#d8a2f6;
+}
+
+/* Estilos para a seta esquerda */
+.seta.esquerda {
+  left: 10px;
+  z-index: 1;
+}
+
+/* Estilos para a seta direita */
+.seta.direita {
+  right: 10px;
+}
+
+
+@media (max-width: 999px) {
+    body {
+      overflow-x: hidden;
+      
+    }
+    .text {
+        float: right;
+        margin-top: 40px;
+        margin-right:0px;
+    }
+    .enviar{
+    float: right;
+    margin-top: 40px;
+    margin-right:40px;
+    margin-left:5px;
+    }
+    .div2 {
+    position: absolute;
+      top: 35vh;
+      left: 50;
+      width: 80vw;
+      height: 60vh;
+      z-index: 1;
+    }
+}

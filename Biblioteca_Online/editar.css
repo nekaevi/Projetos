@@ -1,0 +1,209 @@
+body{
+    font-family: Rajdhani;
+    color: black;
+}
+input {
+    color: black !important;
+}
+
+select {
+    color: black !important;
+    font-family: Rajdhani;
+    border: none;
+    background-color: #ffffff;
+    width: 50%;
+    height: 6vh;
+    border-radius: 5px;
+    display: inline;
+    margin-top:10px;
+    border: 2px solid #f6f6f6;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
+  outline: none;
+}
+
+option {
+    color: black !important;
+    font-family: Rajdhani;
+}
+
+hr{
+    width:22%;
+    margin-left:0px;
+    margin-top:0px;
+    
+}
+.container{
+    background-color:#ecd1fb;
+    width: 68%;
+    height:85vh;
+    border:2px solid #d8a2f6;
+    border-radius: 10px;
+    padding: 20px;
+    position: absolute;
+      top: 60%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+}
+
+input[type="text"] {
+    border: none;
+    background-color: #ffffff;
+    width: 50%;
+    height: 6vh;
+    border-radius: 5px;
+    display: inline;
+    margin-left:20%;
+    border: 2px solid #f6f6f6;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
+  outline: none;
+}
+input[type=text]:focus {
+    background-color: #fff;
+    border-bottom: 2px solid #c63ad8;
+    outline: none;
+  }
+
+  input[type="date"] {
+    border: none;
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    height: 6vh;
+    border-radius: 5px;
+    display: inline;
+    margin-left:8%;
+    font-family:'Rajdhani';
+    border: 2px solid #f6f6f6;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
+  outline: none;
+}
+input[type="date"]:focus {
+    background-color: #fff;
+    border-bottom: 2px solid #c63ad8;
+}
+.checkbox-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, auto);
+    
+}
+
+.check{
+    margin-left: -130px;
+}                                      
+
+.box{
+    margin-left: -200px;
+}
+
+input[type="submit"]{
+    width:30%;
+    height:8vh;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+      justify-content: center;
+    border:none;
+    background-color:#c769fa;
+    Border-radius:8px;
+    cursor:pointer;
+    font-size: 15px;
+    
+}
+input[type="submit"]:hover{
+    
+    bottom: 0;
+    border:none;
+    background-color: #e2b9f8;
+    Border-radius:8px;
+   
+}
+
+label{
+    font-size:20px;
+}
+
+@media (max-width: 999px) {
+    .container{
+        background-color:#ecd1fb;
+        width: 80%;
+        height:85vh;
+        border:2px solid #d8a2f6;
+        border-radius: 10px;
+        padding: 20px;
+        position: absolute;
+          top: 60%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+    }
+    
+    hr{
+        width:30%;
+        margin-left:0px;
+        margin-top:0px; 
+    }
+
+    input[type="text"] {
+        border: none;
+        background-color: #ffffff;
+        width: 65%;
+        height: 6vh;
+        border-radius: 5px;
+        display: inline;
+        margin-left:20%;
+        border: 2px solid #f6f6f6;
+      -webkit-transition: all 0.5s ease-in-out;
+      -moz-transition: all 0.5s ease-in-out;
+      -ms-transition: all 0.5s ease-in-out;
+      -o-transition: all 0.5s ease-in-out;
+      transition: all 0.5s ease-in-out;
+      -webkit-border-radius: 5px 5px 5px 5px;
+      border-radius: 5px 5px 5px 5px;
+      outline: none;
+    }
+    input[type="date"] {
+        border: none;
+        background-color: rgb(255, 255, 255);
+        width: 20%;
+        height: 6vh;
+        border-radius: 5px;
+        display: inline;
+        margin-top:-80%;
+        margin-left:50%;
+        font-family:'Rajdhani';
+        border: 2px solid #f6f6f6;
+      -webkit-transition: all 0.5s ease-in-out;
+      -moz-transition: all 0.5s ease-in-out;
+      -ms-transition: all 0.5s ease-in-out;
+      -o-transition: all 0.5s ease-in-out;
+      transition: all 0.5s ease-in-out;
+      -webkit-border-radius: 5px 5px 5px 5px;
+      border-radius: 5px 5px 5px 5px;
+      outline: none;
+    }
+    input[type="date"]:focus {
+        background-color: #fff;
+        border-bottom: 2px solid #c63ad8;
+    }
+
+    .hr{
+        margin-top:-30px;
+    }
+}
